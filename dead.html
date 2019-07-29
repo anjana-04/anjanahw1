@@ -3,12 +3,15 @@
         <script>
                 function getname(){
                     var n1=document.getElementById("name1").value;
+                    var a=parseInt(n1);
+                  
                     var n2=document.getElementById("name2").value;
-                    if(n1>n2){
-                    document.getElementById("result1").innerHTML=n1
+                    var b=parseInt(n2);
+                    if(a>b){
+                    document.getElementById("result1").innerHTML=a
                     }
                     else{
-                        document.getElementById("result1").innerHTML=n2
+                        document.getElementById("result1").innerHTML=b
                     }
                 }
                 </script>
@@ -17,6 +20,7 @@
             </head>
             <body>
                 <form>
+                    <h1>largest</h1>
                 <table class="table"><tr>
                     <td>
                         enter the first number

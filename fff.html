@@ -21,6 +21,9 @@ function getname(){
     document.getElementById("result5").innerHTML=n5;
     var n6=document.getElementById("name6").value;
     document.getElementById("result6").innerHTML=n6;
+    var n7=document.getElementById("dist").value;
+    document.getElementById("result7").innerHTML=n7;
+}
 }
 </script>
 </head>
@@ -64,8 +67,8 @@ function getname(){
     </tr>
     <tr>
         <td>district</td>
-        <td><select>
-            <option>ekm</option>
+        <td><select id="dist">
+            <option value="ekm">ekm</option>
             <option>tvm</option>
             <option>trissur</option>
             <option>ktm</option>
@@ -105,6 +108,7 @@ function getname(){
 <tr><td><p id="result4"></p></td></tr>
 <tr><td><p id="result5"></p></td></tr>
 <tr><td><p id="result6"></p></td></tr>
+<tr><td><p id="result7"></p></td></tr>
 </table>
 </form>
 </div>

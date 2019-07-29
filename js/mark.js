@@ -30,6 +30,10 @@ function getm()
     document.getElementById("result3").innerHTML="sem: ";
     document.getElementById("result5").innerHTML="exam code: ";
     document.getElementById("result31").innerHTML="status: ";
+    document.getElementById("result33").innerHTML="subject";
+    document.getElementById("result34").innerHTML="mark";
+    document.getElementById("result35").innerHTML="total mark";
+    document.getElementById("result36").innerHTML="grade";
     
     var n1=document.getElementById("text1").value;
     document.getElementById("result2").innerHTML=n1;
